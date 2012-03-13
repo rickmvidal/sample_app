@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.0'
 gem 'pg', '0.12.2'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'bootstrap-sass', '2.0.0'
 
 group :development do
   gem 'rspec-rails', '2.8.1'
@@ -29,6 +30,7 @@ group :test do
   gem 'growl', '1.0.3'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '~> 0.9.0.rc'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 # To use ActiveModel has_secure_password

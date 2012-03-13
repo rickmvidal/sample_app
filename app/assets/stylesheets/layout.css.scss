@@ -1,5 +1,5 @@
 $full-width: 710px;
-$background-color: #DCE7EB;
+//$background-color: #DCE7EB;
 $link-color: #09c;
 $visited-link-color: #069;
 
@@ -7,29 +7,20 @@ $visited-link-color: #069;
   width: $full-width;
 }
 
-body {
-  background: $background-color;
-}
+//body {
+//  background: $background-color;
+//}
 
-header {
-  padding-top: 20px;
-
-  img {
-    padding: 1em;
-    background: DCE7EB;
-  }
-}
-
-section {
-  margin-top: 1em;
-  font-size: 120%;
-  padding: 20px;
-  background: white;
-
-  h1 {
-    font-size: 200%;
-  }
-}
+//section {
+//  margin-top: 1em;
+//  font-size: 120%;
+//  padding: 20px;
+//  background: white;
+//
+//  h1 {
+//    font-size: 200%;
+//  }
+//}
 
 /* Links */
 
@@ -49,36 +40,36 @@ a {
 
 /* Navigation */
 
-nav {
-  float: right;
-  background-color: white;
-  padding: 0 0.7em;
-  white-space: nowrap;
-
-  ul {
-    margin: 0;
-    padding: 0;
-
-    li {
-      list-style-type: none;
-      display: inline-block;
-      padding: 0.2em 0;
-
-      a {
-        padding: 0 5px;
-        font-weight: bold;
-
-        &:visited {
-          color: $link-color;
-        }
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-}
+//nav {
+//  float: right;
+//  background-color: white;
+//  padding: 0 0.7em;
+//  white-space: nowrap;
+//
+//  ul {
+//    margin: 0;
+//    padding: 0;
+//
+//    li {
+//      list-style-type: none;
+//      display: inline-block;
+//      padding: 0.2em 0;
+//
+//      a {
+//        padding: 0 5px;
+//        font-weight: bold;
+//
+//        &:visited {
+//          color: $link-color;
+//        }
+//
+//        &:hover {
+//          text-decoration: underline;
+//        }
+//      }
+//    }
+//  }
+//}
 
 /* Sign up button */
 
@@ -103,14 +94,41 @@ a.signup_button {
   border-radius:         10px;
 }
 
-footer {
-  text-align: center;
-  margin-top: 10px;
-  width: $full-width;
-  margin-left: auto;
-  margin-right: auto;
 
-  nav {
-    float: none;
-  }
+/* User show page */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+
+  img.gravatar {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 4px;
+    margin-bottom: -15px;
+    -moz-border-radius:    6px;
+    -webkit-border-radius: 6px;
+    border-radius:         6px;
+    -moz-box-shadow: 2px 2px 2px #dddddd;
+    -webkit-box-shadow: 2px 2px 2px #dddddd;
+    } 
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 20%;
+  padding: 1em;
+  vertical-align: top;
+  background: #dddddd;
+}
+
+/* Signup form*/
+
+div.field, div.actions {
+  margin-bottom: 10px;
+  width: 10%;
 }
